@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#navToggler {
+  border-color: #42be5f;
+  color: #42be5f;
+}
+
+.logoText {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+  color: #5bd077;
+  line-height: 1;
+}
+.cont4 {
+  font-size: 18px;
+  font-family: 'Times New Roman';
+  position: relative;
+  .callBac {
+    color: #5bd077;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .phoneNumber {
+    color: #5b5b5b;
+  }
+}
+.cont5 {
+  font-size: 18px;
+  font-family: 'Times New Roman';
+  color: #5b5b5b;
+}
+
+.cont2 {
+  .navLink {
+    color: #505050;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: #505050;
+    a {
+      list-style: none;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'PT Sans', sans-serif;
+      color: #505050;
+    }
+    &:hover {
+      color: #42be5f !important;
+      border: #42be5f;
+      cursor: pointer;
+    }
+  }
+  li {
+    a {
+      list-style: none;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'PT Sans', sans-serif;
+    }
+    &:hover {
+      color: #42be5f;
+      cursor: pointer;
+    }
+  }
+  .verticalLine {
+    height: 10px;
+
+    width: 2px;
+    color: #707070;
+    background: #707070;
+    vertical-align: end;
+  }
+
+  .phoneNumber {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+  }
+
+  p {
+    margin: 0;
+  }
+  .togglerA {
+    border: #5bd077 solid 2px;
+
+    outline: none;
+    .togglerAB {
+      margin-top: 0.2rem;
+      border: #5bd077 solid 1px;
+      margin-bottom: 0.5rem;
+    }
+    span {
+       background: red;
+    }
+  }
+
+  .buttonA {
+    background: #5bd077;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    &:hover {
+      background: #4e83c0;
+    }
+  }
+}
+button {
+  outline: none;
+}
+.photo {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .textOnPhoto {
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+    h1 {
+      font-size: 38px;
+      font-weight: bold;
+      font-family: 'PT Sans', sans-serif;
+    }
+    ul {
+      li {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+      }
+    }
+  }
+}
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+.col1 {
+  color: white;
+  text-align: center;
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+  }
+  p {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+  }
+  img {
+    padding: 20px;
+  }
+}
+
+#childrenDentistry {
+  background: #71db8a;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+#therapy {
+  background: #64dcb9;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+#orthodontics {
+  background: #63cecd;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+#orthopedics {
+  background: #50aac7;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+#implantation {
+  background: #4a99c2;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+#surgery {
+  background: #4a88c2;
+  &:hover {
+    background: #75e68fc9;
+  }
+}
+.lorem {
+  .textLorem {
+    margin-top: 80px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+  }
+  .imageTeeth {
+    margin-top: 80px;
+    text-align: center;
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'PT Sans', sans-serif;
+    }
+    p {
+      font-size: 20px;
+      font-weight: normal;
+      font-family: 'PT Sans', sans-serif;
+    }
+  }
+}
+.advantages {
+  background: #e0f0ff;
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: #5a6d7f;
+    padding-top: 25px;
+  }
+  .contForAdvantages {
+    .doctor {
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+      }
+    }
+    .services {
+      img {
+        margin-top: 1.2rem;
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+      }
+    }
+    .technologies {
+      img {
+        margin-top: 1.2rem;
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+      }
+    }
+    .guarantee {
+      img {
+        margin-top: 1.2rem;
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+      }
+    }
+  }
+}
+
+.reviews1,
+.reviews2,
+.reviews3 {
+  position: relative;
+
+  p {
+    font-size: 18px;
+    font-weight: italic;
+    font-family: 'PT Sans', sans-serif;
+    color: #797979;
+    text-align: center;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: #4c4c4c;
+    vertical-align: text-bottom;
+    position: absolute;
+    bottom: 0;
+  }
+}
+.h1rew {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: #505050;
+}
+.hsrew {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: #505050;
+}
+
+#readReviews {
+  border: 1px solid #5a6d7f;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'PT Sans', sans-serif;
+  color: #5a6d7f;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  &:hover {
+    background: #4e83c0;
+    color: white;
+  }
+}
+
+.form {
+  .flexbox {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  background: #e8f2ef;
+
+  form {
+  }
+  .inputText {
+    height: 52px;
+    margin-bottom: 18px;
+    margin-right: 30px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+    background-repeat: no-repeat;
+    background-position: 7px 16px;
+    padding-left: 33px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .inputText1 {
+    background-image: url('Color Overlay2.png');
+  }
+  .inputText2 {
+    background-image: url('Phone1.png');
+  }
+  .inputText3 {
+    background-image: url('Calendar icon.png');
+  }
+  .inputText4 {
+    background-image: url('Clock icon.png');
+  }
+  textarea {
+    outline: none;
+    resize: none;
+    border: 1px solid #d9d9d9;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    color: #a0a0a0;
+  }
+  #send {
+    width: 225px;
+    height: 54px;
+
+    text-align: center;
+    margin-top: 18px;
+    background: #52ceaa;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    &:hover {
+      background: #62a391;
+    }
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: #3e6459;
+    padding-top: 30px;
+    padding-bottom: 18px;
+  }
+
+  .textForForm {
+    img {
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: 'PT Sans', sans-serif;
+      color: #428397;
+    }
+    span {
+      color: #f55656;
+    }
+  }
+}
+.footer1 {
+  height: 34px;
+  width: auto;
+  background: linear-gradient(left, #5bd077, #4e83c0);
+  .footercont {
+  }
+
+  li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    padding-right: 32px;
+    padding-top: 5px;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+.horizontalLine {
+  width: auto;
+  height: 1px;
+  color: white;
+}
+.footer2 {
+  background: linear-gradient(left, #5bd077, #4e83c0);
+  .nameCompany {
+    width: 250px;
+    height: 33px;
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    color: white;
+    padding-top: 16px;
+  }
+  img {
+    width: 64px;
+    height: 50px;
+
+    margin-top: 16px;
+  }
+  .development {
+    width: 158px;
+    height: 70px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    margin-left: 12px;
+    padding-top: 16px;
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner
+    .active.col-md-4.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .carousel-inner
+    .active.col-sm-6.carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+  }
+
+  .carousel-inner .active + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 991px) {
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+    display: block;
+  }
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner
+    .active.col-lg-3.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
